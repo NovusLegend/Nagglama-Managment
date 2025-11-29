@@ -1,13 +1,10 @@
 import React from 'react';
 import { 
   LayoutDashboard, 
-  GraduationCap, 
   Users, 
   BookOpen, 
   FileSpreadsheet, 
-  Settings,
   LogOut,
-  Trophy,
   Activity
 } from 'lucide-react';
 
@@ -24,7 +21,6 @@ const Sidebar: React.FC<SidebarProps> = ({ currentView, setCurrentView, role }) 
     { id: 'students', label: 'Students', icon: Users },
     { id: 'reports', label: 'Reports', icon: FileSpreadsheet },
     { id: 'discipline', label: 'Discipline Log', icon: Activity },
-    { id: 'houses', label: 'House System', icon: Trophy },
   ];
 
   return (
